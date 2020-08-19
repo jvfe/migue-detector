@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "migue-checker",
+    "name": "migue-detector",
     "version": "1.0",
     "description": "Checa se um artigo do PMC tá dando migué",
     "icons": {
