@@ -34,15 +34,15 @@ function createAviso(texto, estilo) {
 if (positivo_result) {
 
 
-    aviso_bom = `Migué-detector acha que esse artigo tem uma boa política de dados! Ele contém as palavras-chave "${positivo_result}"`;
-    estilo_bom = "border: 1px solid green;background-color: #a1f1a1;padding: 0.3923em 0.6923em;border-radius: 5px;";
+    let aviso_bom = `Migué-detector acha que esse artigo tem uma boa política de dados! Ele contém as palavras-chave "${positivo_result}"`;
+    let estilo_bom = "border: 1px solid green;background-color: #a1f1a1;padding: 0.3923em 0.6923em;border-radius: 5px;";
 
     createAviso(aviso_bom, estilo_bom);
 
 } else if (migue_result) {
 
-    aviso_ruim = `Migué-detector achou esse artigo suspeito... Ele contém as palavras-chave "${migue_result}"`;
-    estilo_ruim = "border: 1px solid darkviolet;background-color: thistle;padding: 0.3923em 0.6923em;border-radius: 5px;";
+    let aviso_ruim = `Migué-detector achou esse artigo suspeito... Ele contém as palavras-chave "${migue_result}"`;
+    let estilo_ruim = "border: 1px solid darkviolet;background-color: thistle;padding: 0.3923em 0.6923em;border-radius: 5px;";
 
     createAviso(aviso_ruim, estilo_ruim);
 
