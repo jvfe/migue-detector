@@ -4,7 +4,12 @@
     "version": "1.0",
     "description": "Checa se um artigo do PMC tá dando migué",
     "icons": {
-        "48": "icons/border-48.png"
+        "48": "icons/Migue50.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "migues@miguezometro.com"
+        }
     },
     "content_scripts": [
         {
@@ -12,7 +17,7 @@
                 "*://*.ncbi.nlm.nih.gov/pmc/articles/*"
             ],
             "js": [
-                "index.js"
+                "migue-detector/index.js"
             ]
         }
     ]

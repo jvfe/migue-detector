@@ -5,7 +5,7 @@ let element = document.getElementsByClassName("article")[1];
 let text = element.textContent;
 
 // Lista de keywords - Colabore aqui!
-let positivos = ["data is available", "zenodo", "figshare", "github"]
+let positivos = ["data is available", "zenodo", "figshare", "github", "freely available"]
 
 let migues = ["upon request", "on request", "data not available", "supplementary material", "reasonable request"]
 
@@ -15,15 +15,13 @@ let positivo_result = positivos.find(positivo => text.includes(positivo))
 
 let migue_result = migues.find(migue => text.includes(migue))
 
-// Função que cria a infobox contendo o aviso
-
 function createAviso(texto, estilo) {
     let title = document.getElementsByClassName("content-title")[0]
 
     // Criação e ligação do elemento HTML
 
     let aviso = document.createElement('div');
-    aviso_text = document.createTextNode(texto);
+    let aviso_text = document.createTextNode(texto);
     aviso.appendChild(aviso_text);
     aviso.setAttribute("style", estilo);
     title.parentElement.appendChild(aviso);
