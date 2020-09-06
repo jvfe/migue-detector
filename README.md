@@ -27,3 +27,5 @@ Caso positivo:
 2. Descompacte o arquivo .zip baixado.
 3. Navegue até `about:debugging` e selecione a aba à esquerda "This firefox"
 4. Clique o botão "Load temporary add-on" e selecione qualquer arquivo dentro do diretório descompactado. 
+
+[Ícone por AnaBia](https://www.instagram.com/anabia.mor/)
