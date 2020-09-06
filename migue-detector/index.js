@@ -44,4 +44,11 @@ if (positivo_result) {
 
     createAviso(aviso_ruim, estilo_ruim);
 
+} else {
+
+    let desconhecido = `Não achamos nada nesse artigo! Talvez precisamos dar uma melhorada no nosso vocabulário...`;
+    let estilo_desconhecido = "border: 1px solid #ffff02;background-color: navajowhite;padding: 0.3923em 0.6923em;border-radius: 5px;";
+
+    createAviso(desconhecido, estilo_desconhecido);
+
 }
